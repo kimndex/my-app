@@ -7,7 +7,7 @@ export default function Current(props) {
     <div className="row">
       <div className="col-6">
         {" "}
-        <div className="current currentTemp">
+        <div className="currentTemp">
           <img src={props.icon} alt="weather icon" className="weather-icon" />
 
           <span className="current-temp">

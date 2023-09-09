@@ -14,3 +14,8 @@
 .degrees-fahrenheit {
   text-decoration: none;
 }
+@media (max-width: 400px) {
+  .degrees {
+    top: -19px;
+  }
+}

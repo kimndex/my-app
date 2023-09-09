@@ -55,7 +55,7 @@ export default function Search(props) {
               <input
                 className="btn btn-primary w-100"
                 type="Submit"
-                value="Search 🔍"
+                value="Search "
               />
             </div>
           </div>

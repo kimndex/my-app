@@ -5,3 +5,11 @@
 .currentTemp {
   font-size: 50px;
 }
+@media (max-width: 400px) {
+  .current-temp {
+    font-size: 40px;
+  }
+  .current {
+    font-size: 18px;
+  }
+}
