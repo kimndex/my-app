@@ -1,18 +1,14 @@
 import React from "react";
 import "./units.css";
 
-export default function Units() {
+export default function Units(props) {
   return (
     <span className="degrees">
       <span>
-        <a href="./" id="degrees-celcius" className="working">
+        <a href="./" className="degrees-celcius working">
           {" "}
           °C
         </a>{" "}
-        |
-        <a href="./" id="degrees-fahrenheit">
-          °F
-        </a>
       </span>
     </span>
   );

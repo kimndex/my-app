@@ -2,24 +2,27 @@ import React from "react";
 import Units from "./Units";
 import "./current.css";
 
-export default function Current() {
+export default function Current(props) {
   return (
-    <div className="col-6">
-      <div className="current">
-        <div className="currentTemp">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="weather icon"
-            id="weather-icon"
-          />
+    <div className="row">
+      <div className="col-6">
+        {" "}
+        <div className="current currentTemp">
+          <img src={props.icon} alt="weather icon" className="weather-icon" />
 
-          <span id="current-temp">
-            <strong>12</strong>
+          <span className="current-temp">
+            <strong>{Math.round(props.temp)}</strong>
           </span>
-          <Units />
+          <Units temp={props.temp} />
         </div>
-        Humidity: <span id="humidity">79</span>% <br />
-        Wind Speed: <span id="wind-speed">7</span>km/hr
+      </div>
+      <div className="col-6">
+        <div className="current">
+          Humidity: <span className="humidity">{props.humidity}</span>% <br />
+          Wind Speed:{" "}
+          <span className="wind-speed">{Math.round(props.wind)}</span>
+          km/hr
+        </div>
       </div>
     </div>
   );

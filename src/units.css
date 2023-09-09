@@ -8,9 +8,9 @@
   color: #000;
   cursor: default;
 }
-#degrees-celcius {
+.degrees-celcius {
   text-decoration: none;
 }
-#degrees-fahrenheit {
+.degrees-fahrenheit {
   text-decoration: none;
 }

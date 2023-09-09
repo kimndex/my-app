@@ -3,7 +3,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <p id="footer" className="mt-5">
+    <p className="footer mt-5">
       <a href="https://github.com/kimndex/my-app">open-source code</a>, by Nothy
       Ndebele
     </p>

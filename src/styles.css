@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-div.container {
+.container {
   background: radial-gradient(
     328px at 2.9% 15%,
     rgb(191, 224, 251) 0%,
@@ -17,7 +17,8 @@ div.container {
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
-  margin: 50px 70px;
+  margin: 50px auto;
+  max-width: 700px;
   border: 1px solid grey;
 
   top: 50px;
