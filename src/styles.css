@@ -30,6 +30,11 @@ body {
 .forecastIcon {
   font-size: 30px;
 }
+@media (max-width: 400px) {
+  .container {
+    border: none;
+  }
+}
 
 #weather-forecast {
   text-align: center;

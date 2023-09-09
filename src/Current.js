@@ -17,7 +17,7 @@ export default function Current(props) {
         </div>
       </div>
       <div className="col-6">
-        <div className="current">
+        <div className="current text-muted">
           Humidity: <span className="humidity">{props.humidity}</span>% <br />
           Wind Speed:{" "}
           <span className="wind-speed">{Math.round(props.wind)}</span>
